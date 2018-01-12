@@ -13,7 +13,7 @@ class Maindiv extends Component {
 
   clickTrue = id => {
     const images = this.state.images.filter(image => image.id !== id);
-    if (images.clicked === true) {
+    if (this.state.images.clicked === true) {
       alert("You already clicked that, start over!");
     }
     else {
@@ -24,17 +24,17 @@ class Maindiv extends Component {
     // const displayImage = (imageDisplay) => imageDisplay.forEach();
 
     console.log(this.state.images.clicked);
-    console.log(this.state.images.scoreCount);
+    console.log(this.state.images.count);
 
   };
   render() {
     return (
       <div>
 <Container>
-  <Grid columns={4} divided>
-    <Grid.Row>
-      <Grid.Column>
+  <Grid columns={4} celled>
+  <Grid.Row>
       {this.state.images.map(image => (
+        <Grid.Column>
         <EachImage
         clickTrue={this.clickTrue}
         clicked={image.clicked}
@@ -43,10 +43,10 @@ class Maindiv extends Component {
         alt={image.alt}
         src={image.src}
         />
+        </Grid.Column>
         ))
       }
-        </Grid.Column>
-    </Grid.Row>
+      </Grid.Row>
   </Grid>
   </Container>
   </div>

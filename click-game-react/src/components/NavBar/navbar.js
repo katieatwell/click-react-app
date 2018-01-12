@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { Menu, Grid, Segment } from 'semantic-ui-react'
+import ScoreCounter from "../ScoreCounter"
+import Maindiv from "../MainWrapper"
 
 class Navbar extends Component {
   handleItemClick = (e, { name }) => this.setState({ activeItem: name })
@@ -21,8 +23,10 @@ class Navbar extends Component {
         <Grid.Column width={4}>
           <Menu fluid vertical tabular='right'>
           <Menu.Item name='CLICK GAME' active={activeItem === 'CLICKGAME'} onClick={this.handleItemClick} />
-            <Menu.Item name='Instructions' active={activeItem === 'Instructions'} onClick={this.handleItemClick} />
-            <Menu.Item name='Credits' active={activeItem === 'Credits'} onClick={this.handleItemClick} />
+          <ScoreCounter
+          clickTrue={this.clickTrue}
+          count={this.count}
+          />
           </Menu>
         </Grid.Column>
       </Grid>

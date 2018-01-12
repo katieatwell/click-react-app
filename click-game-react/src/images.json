@@ -25,7 +25,7 @@
     {
         "id": 5,
         "alt": "AmericanGothic",
-        "src": "..../../images/gothic.jpg",
+        "src": ".../../images/gothic.jpg",
         "clicked": false
     },
     {
@@ -37,7 +37,7 @@
     {
         "id": 7,
         "alt": "MonaLisa",
-        "image": "../../images/monalisa.jpg",
+        "src": "../../images/monalisa.jpg",
         "clicked": false
     },
     {
