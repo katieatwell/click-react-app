@@ -1,0 +1,73 @@
+[{
+        "id": 1,
+        "alt": "Burger",
+        "src": "../../images/burger.jpg",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "alt": "Clocks",
+        "src": "../../images/clocks.jpg",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "alt": "Ghostface",
+        "src": "../../images/ghostface.jpg",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "alt": "St.Thomas",
+        "src": "../../images/stthomas.jpg",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "alt": "AmericanGothic",
+        "src": "..../../images/gothic.jpg",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "alt": "Milkmaid",
+        "src": "../../images/milkmaid.jpg",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "alt": "MonaLisa",
+        "image": "../../images/monalisa.jpg",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "alt": "Versailles",
+        "src": ".../../images/versailles.jpg",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "alt": "Rembrandt",
+        "src": "../../images/rembrandt.jpg",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "alt": "WD40",
+        "src": "../../images/wd40.jpg",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "alt": "Spiderman",
+        "src": "../../images/spiderman.jpg",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "alt": "LastSupper",
+        "src": "../../images/thelastsupper.jpg",
+        "clicked": false
+    }
+]
